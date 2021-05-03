@@ -1,0 +1,263 @@
+.sumaEuro{
+
+    
+    position: absolute;
+    width: 531px;
+    height: 85px;
+    left: 251px;
+    top: 687px;
+
+    .sumaTitle{
+        position: absolute;
+        left: 0;
+        top: 0;
+
+        /* tag */
+
+        font-family: Public Sans;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 19px;
+        /* identical to box height, or 119% */
+
+
+        /* black */
+
+        color: #2F2F2F;
+
+    }
+
+    .sumaUl{
+        list-style: none;
+
+        a{
+            font-size: 0;
+            text-decoration: none;
+        }
+
+    
+        input:focus, input:active{
+            background: linear-gradient(115.41deg, #CD8A64 -1.77%, #C4794F 73.03%);
+            color: white;        
+            outline: none;  
+            border-color: white;   
+        }
+
+        input:focus + div, input:active + div{
+            color: white;        
+            border-color: white;   
+        }
+
+        a:focus span, a:active span{
+            color: white;        
+
+        }
+
+        a:focus, a:active{
+            background: linear-gradient(115.41deg, #CD8A64 -1.77%, #C4794F 73.03%);
+        }
+
+        a:hover, a:hover span{
+            background: linear-gradient(115.41deg, #CD8A64 -1.77%, #C4794F 73.03%);
+            color: white;        
+        }
+    
+ 
+
+        .sumaLia{
+           
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 16px;
+
+            position: absolute;
+            width: 58px;
+            height: 53px;
+            left: 0;
+            top: 31px;
+
+            background: #FFFFFF;
+            border: 1px solid #DFDFDF;
+            box-sizing: border-box;
+            border-radius: 8px;
+
+            
+        }
+
+        .sumaLib{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 16px;
+            
+            position: absolute;
+            width: 64px;
+            height: 53px;
+            left: 65px;
+            top: 31px;
+            
+            background: #FFFFFF;
+            border: 1px solid #DFDFDF;
+            box-sizing: border-box;
+            border-radius: 8px;        
+        }
+
+        .sumaLic{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 16px;
+            
+            position: absolute;
+            width: 68px;
+            height: 53px;
+            left: 136px;
+            top: 31px;
+            
+            background: #FFFFFF;
+            border: 1px solid #DFDFDF;
+            box-sizing: border-box;
+            border-radius: 8px;        
+        }
+
+        .sumaLid{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 16px;
+            
+            position: absolute;
+            width: 68px;
+            height: 53px;
+            left: 211px;
+            top: 31px;
+            
+            background: #FFFFFF;
+            border: 1px solid #DFDFDF;
+            box-sizing: border-box;
+            border-radius: 8px;        
+        }
+
+        .sumaLie{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 16px;
+            
+            position: absolute;
+            width: 68px;
+            height: 53px;
+            left: 286px;
+            top: 31px;
+            
+            background: #FFFFFF;
+            border: 1px solid #DFDFDF;
+            box-sizing: border-box;
+            border-radius: 8px;        
+        }
+
+        .sumaLif{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 16px;
+            
+            position: absolute;
+            width: 75px;
+            height: 53px;
+            left: 361px;
+            top: 31px;
+            
+            background: #FFFFFF;
+            border: 1px solid #DFDFDF;
+            box-sizing: border-box;
+            border-radius: 8px;        
+        }
+        
+        span{
+            font-family: Public Sans;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 15px;
+            line-height: 21px;
+            color: #2F2F2F;        
+        }
+
+
+    }
+
+    .sumaInput{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 16px;
+        text-align: left;
+        
+        position: absolute;
+        width: 86px;
+        height: 53px;
+        left: 452px;
+        top: 31px;
+        
+        background: #FFFFFF;
+        border: 1px solid #DFDFDF;
+        box-sizing: border-box;
+        border-radius: 8px;  
+        font-family: Public Sans;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 15px;
+        line-height: 21px;
+        color: #2F2F2F;
+    }
+
+    .sumaUnder{
+        position: absolute;
+        width: 33px;
+        height: 0px;
+        left: 469px;
+        top: 67px;
+        
+        border-bottom: 1px solid #C9C9C9;
+        transform: rotate(180deg);    
+    }
+
+    .sumaEuroIcon{
+        position: absolute;
+        width: 54px;
+        height: 21px;
+        left: 482px;
+        top: 48px;
+        
+        /* input label */
+        
+        font-family: Public Sans;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 15px;
+        line-height: 21px;
+        /* identical to box height, or 131% */
+        
+        
+        /* black */
+        
+        color: #2F2F2F;
+        
+        
+        /* Inside Auto Layout */
+        
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 10px;    
+    }
+
+
+    
+
+
+
+
+}

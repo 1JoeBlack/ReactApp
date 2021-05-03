@@ -1,0 +1,145 @@
+@font-face {
+    font-family: 'Public Sans';
+    src: local('Public Sans'), url(../assets/fonts/PublicSans-SemiBold.ttf) format('truetype');
+}
+
+.utlType{
+
+    .border{
+        position: absolute;
+        width: 557px;
+        height: 106px;
+        left: 249px;
+        top: 539px;
+    
+
+    }
+
+    .title{
+        position: absolute;
+        width: 200px;
+        height: 19px;
+        left: 249px;
+        top: 539px;
+        
+        /* tag */
+        
+        font-family: Public Sans;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 19px;
+        /* identical to box height, or 119% */
+        
+        
+        /* black */
+        
+        color: #2F2F2F;    
+    }
+
+    .required{
+        position: absolute;
+        width: 72px;
+        height: 19px;
+        left: 732px;
+        top: 539px;
+        
+        /* tag */
+        
+        font-family: Public Sans;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 14px;
+        line-height: 19px;
+        /* identical to box height, or 136% */
+        
+        text-align: right;
+        
+        /* black */
+        
+        color: #2F2F2F;
+        
+        opacity: 0.8;    
+    }
+
+    .form{
+        position: absolute;
+        width: 557px;
+        height: 74px;
+    
+        left: 249px;
+        top: 571px;
+        
+        background: #FFFFFF;
+        border: 1px solid #DFDFDF;
+        box-sizing: border-box;
+        border-radius: 8px; 
+        
+        .label{
+            position: absolute;
+            width: 53px;
+            height: 21px;
+            left: 24px;
+            top: 16px;
+            
+            /* input label */
+            
+            font-family: Public Sans;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 16px;
+            line-height: 21px;
+            /* identical to box height, or 131% */
+            
+            
+            /* black */
+            
+            color: #2F2F2F;
+
+            .select{
+                position: absolute;
+                width: 500px;
+                height: 21px;
+                left: -3px;
+                top: 20px;
+                border: hidden;
+                
+                /* paragraph */
+                
+                font-family: Public Sans;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 21px;
+                /* identical to box height, or 131% */
+                
+                
+                /* grey/500 */
+                
+                color: #9F9F9F;}
+        }
+        }
+
+
+    .labelReq{
+        position: absolute;
+        width: 53px;
+        height: 21px;
+        left: 104px;
+        top: 16px;
+        
+        /* input label */
+        
+        font-family: Public Sans;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 21px;
+        /* identical to box height, or 131% */
+        
+        
+        /* black */
+        
+        color: #2F2F2F;
+    }
+}

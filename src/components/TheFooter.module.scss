@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'Public Sans';
+    src: local('Public Sans'), url(../assets/fonts/PublicSans-VariableFont_wght.ttf) format('truetype');
+}
+
+.footer{
+
+    position: absolute;
+    width: 1140px;
+    height: 323px;
+    left: 150px;
+    top: 962px;
+    border-top: 1px solid rgba(47, 47, 47, 0.16);
+    text-align: left;
+
+
+
+    .icon{
+        position: absolute;
+        width: 220px;
+        height: 56px;
+        left: 0;
+        top: 115px;
+    }
+
+    .titlea{
+
+        position: absolute;
+        left: 34.04%;
+        right: 51.05%;
+        top: 36.53%;
+        bottom: 56.97%;
+
+        font-family: Public Sans;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 130%;
+     
+
+        color: #2F2F2F;    
+    }
+
+    .titleb{
+        position: absolute;
+        left: 59.56%;
+        right: 25.53%;
+        top: 36.53%;
+        bottom: 56.97%;
+        
+        font-family: Public Sans;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 130%;
+    
+        
+        color: #2F2F2F;
+    }
+
+    .titlec{
+        position: absolute;
+        left: 85.09%;
+        right: 0%;
+        top: 36.53%;
+        bottom: 56.97%;
+
+        font-family: Public Sans;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 130%;
+     
+        color: #2F2F2F;
+    }
+
+    .descra{
+        position: absolute;
+        left: 34.04%;
+        right: 51.05%;
+        top: 50.46%;
+        bottom: 19.81%;
+
+        font-family: Public Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 200%;
+ 
+        color: #585757;
+    }
+
+    .descrb{
+        position: absolute;
+        left: 59.56%;
+        right: 25.53%;
+        top: 50.46%;
+        bottom: 17.03%;
+        
+        font-family: Public Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 130%;
+   
+        color: #585757;
+      
+    }
+
+    .descrc{
+
+        position: absolute;
+        left: 85.09%;
+        right: 0%;
+        top: 50.46%;
+        bottom: 17.03%;
+        
+        font-family: Public Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 130%;
+        color: #585757;
+      
+    }
+
+    a{
+        text-decoration: none;
+        font-family: Public Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 200%;
+        /* or 32px */
+
+
+        /* grey/800 */
+
+        color: #585757;
+
+        &:hover{
+            color: #863c11;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'Hind';
+  src: local('Hind'), url(../assets/fonts/Hind-Bold.ttf) format('truetype');
+}
+
+.pageheader{
+
+    text-align: left;
+
+    .title{
+
+      position: absolute;
+      width: 552px;
+      height: 104px;
+      left: 250px;
+      top: 163px;
+      
+      font-family: Hind;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 46px;
+      line-height: 52px;
+      /* or 113% */
+      
+      letter-spacing: 0.01em;
+      
+      color: #000000;
+  }
+
+  .dog{
+    position: absolute;
+    width: 364px;
+    height: 730px;
+    left: 870px;
+    top: 129px;
+  }
+  
+
+}
